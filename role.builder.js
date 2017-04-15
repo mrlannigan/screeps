@@ -5,7 +5,7 @@ exports.config = {
     memory: {
         role: 'builder'
     },
-    body: [WORK, WORK, CARRY, CARRY, MOVE, MOVE]
+    body: [WORK, WORK, CARRY, MOVE]
 };
 
 exports.run = (creep) => {
